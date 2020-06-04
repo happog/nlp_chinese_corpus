@@ -3,6 +3,16 @@
 
 贡献中文语料，请发送邮件: nlp_chinese_corpus@163.com
 
+*** update ****
+
+中文任务基准测评，10大任务 & 9个模型一键运行、详细测评：
+
+Language Understanding Evaluation benchmark for Chinese(<a href='https://github.com/CLUEbenchmark/CLUE'>CLUE benchmark<a/>): run 10 tasks & 9 baselines with one line of code, performance comparision with details.
+    
+Releasing Pre-trained Model of <a href="https://github.com/brightmart/albert_zh">ALBERT_Chinese</a>:
+
+Training with 30G+ Raw Chinese Corpus, xxlarge, small version and more, Target to match State of the Art performance in Chinese with 30% less parameters, 2019-Oct-7, During the National Day of China!</a>
+
 语料库将会不断扩充。。。
 
 一期目标：10个百万级中文语料 & 3个千万级中文语料(2019年5月1号)
@@ -35,7 +45,7 @@ Update： 增加高质量社区问答json版(webtext2019zh)，可用于训练超
 -------------------------------------------------------------------------
 
 #### 104万个词条(1,043,224条; 原始文件大小1.6G，压缩文件519M；数据更新时间：2019.2.7)
-<a href='https://storage.googleapis.com/nlp_chinese_corpus/wiki_zh_2019.zip'>点此直接下载</a> <a href='https://pan.baidu.com/s/1uPMlIY3vhusdnhAge318TA'> 或 下载渠道2</a> 
+<a href='https://drive.google.com/file/d/1EdHUZIDpgcBoSqbjlfNKJ3b1t0XIUjbt/view?usp=sharing'>Google Drive下载</a> <a href='https://pan.baidu.com/s/1uPMlIY3vhusdnhAge318TA'> 或 百度云盘</a> 
 
 
 #### 可能的用途：
@@ -71,7 +81,7 @@ Update： 增加高质量社区问答json版(webtext2019zh)，可用于训练超
 
 #### 250万篇新闻( 原始数据9G，压缩文件3.6G；新闻内容跨度：2014-2016年)
 
-<a href='https://pan.baidu.com/s/1LJeq1dkA0wmYd9ZGZw72Xg'>点此下载</a>，密码: film
+<a href='https://drive.google.com/file/d/1TMKu1FpTr6kcjWXWlQHX7YJsMfhhcVKp/view?usp=sharing'>Google Drive下载</a>或 <a href='https://pan.baidu.com/s/1MLLM-CdM6BhJkj8D0u3atA'>百度云盘下载</a>，密码:k265
 
 #### 数据描述
 
@@ -107,7 +117,7 @@ Update： 增加高质量社区问答json版(webtext2019zh)，可用于训练超
 
 #### 150万个问答( 原始数据1G多，压缩文件663M；数据更新时间：2018年)
 
-<a href='https://pan.baidu.com/s/12TCEwC_Q3He65HtPKN17cA'>点此下载</a>，密码:fu45
+<a href="https://drive.google.com/open?id=1_vgGQZpfSxN_Ng9iTAvE7hM3Z7NVwXP2">Google Drive下载</a> 或 <a href='https://pan.baidu.com/s/12TCEwC_Q3He65HtPKN17cA'>百度云盘下载</a>，密码:fu45
 
 
 #### 数据描述
@@ -151,7 +161,7 @@ Update： 增加高质量社区问答json版(webtext2019zh)，可用于训练超
 
 #### 410万个问答( 过滤后数据3.7G，压缩文件1.7G；数据跨度：2015-2016年)
 
-<a href='https://storage.googleapis.com/nlp_chinese_corpus/webtext2019zh.zip'>点此直接下载</a>
+<a href='https://drive.google.com/open?id=1u2yW_XohbYL2YAK6Bzc5XrngHstQTf0v'>Google Drive下载</a>
 
 
 #### 数据描述
@@ -167,7 +177,7 @@ Update： 增加高质量社区问答json版(webtext2019zh)，可用于训练超
 
 #### 可能的用途：
     
-    1）构建百科类问答：输入一个问题，构建检索系统得到一个回复或生产一个回复。
+    1）构建百科类问答：输入一个问题，构建检索系统得到一个回复或生产一个回复；或根据相关关键词从，社区问答库中筛选出你相关的领域数据
     
     2）训练话题预测模型：输入一个问题(和或描述)，预测属于话题。
     
@@ -219,7 +229,7 @@ Update： 增加高质量社区问答json版(webtext2019zh)，可用于训练超
 
 #### 520万个中英文平行语料( 原始数据1.1G，压缩文件596M)
 
-<a href='https://storage.googleapis.com/nlp_chinese_corpus/translation2019zh.zip'>点此直接下载</a>
+<a href='https://drive.google.com/open?id=1EX8eE5YWBxCaohBO8Fh4e2j3b9C2bTVQ'>Google Drive下载</a>
 
 
 #### 数据描述
@@ -274,14 +284,26 @@ thank you for your understanding.
 
 1. <a href='https://github.com/ReactiveCJ'>ReactiveCJ</a>
 
-引用/Citation
+
+引用 Citation / How do I cite Us?
 -------------------------------------------------------------------------
 
-If you use our corpus, please cite: 
+    @misc{bright_xu_2019_3402023,
+    author       = {Bright Xu},
+    title        = {NLP Chinese Corpus: Large Scale Chinese Corpus for NLP },
+    month        = sep,
+    year         = 2019,
+    doi          = {10.5281/zenodo.3402023},
+    version      = {1.0},
+    publisher    = {Zenodo},
+    url          = {https://doi.org/10.5281/zenodo.3402023}
+    }
 
-Liang Xu, NLPCC2019: Large-Scale Chinese Datasets for NLP, http://github.com/brightmart/nlp_chinese_corpus
+
+<a href="https://zenodo.org/badge/latestdoi/169745123"><img src="https://zenodo.org/badge/169745123.svg" alt="DOI"></a>
 
 也请发邮件告知我们您的论文名称或在这个项目的数据集上的工作
+
 
 Reference
 -------------------------------------------------------------------------
